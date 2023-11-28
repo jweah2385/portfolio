@@ -1,7 +1,18 @@
 ul  {
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
-    margin-top: 1.5rem;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #454545;
+    /* align-items: center; */
+    position: relative;
+    /* right: 7.5rem; */
+    font-weight: 400;
+    /* font-size: 1.2rem */
+
+font-family: 'Nunito Sans', sans-serif;
+
 }
+
 

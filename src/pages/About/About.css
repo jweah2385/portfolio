@@ -1,22 +1,62 @@
 .about {
     display: flex;
    /* flex-wrap: wrap; */
+   margin-top: 5rem;
+   margin-left: auto;
+   margin-right: auto;
+    height: 60vh;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 
 .about-me {
     flex-grow: 4;
-    flex-basis: 50%;
+    flex-basis: 55%;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+
+.welcome {
+    display: inline-block;
+    border: .5px solid #454545;
+    width: 8rem;
+    align-content: center;
+    text-align: center;
+    height: 2rem;
+    font-weight: 300;
+    border-radius: 15px;
+    padding-top: .8rem;
+    
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 1.2rem;
+}
+
+p {
+    font-weight: 300;
+    color: grey;
+    margin-top: -1.3rem;
 }
 
 .photo-sec {
     flex-grow: 1;
-    flex-basis: 50%;
+    flex-basis: 45%;
     padding: 0 20px;
+    position: relative;
+    /* left: 2.5rem; */
 }  
 
 .photo-sec img {
     max-width: 100%;
-    height: auto;
+    height: 28rem;
+
+}
+
+.portrait {
+    border-radius: 8.5rem;
+    
 }
 
 .both-buttons {
@@ -27,7 +67,24 @@
 
 .both-buttons > button {
     border-radius: 8px;
-    height: 2rem;
-    width: 5rem;
-    border-width: 1px;
+    height: 2.2rem;
+    width: 6.5rem;
+    border-width: .5px;
+}
+
+.both-buttons > button:hover {
+    background-color: #85E6C5;
+    color: white;
+}
+
+@media ((max-width: 800px)) {
+    .about {
+        flex-wrap: wrap;
+    }
+
+    .photo-sec {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
 }

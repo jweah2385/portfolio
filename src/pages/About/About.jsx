@@ -1,5 +1,5 @@
   import './About.css';
-  import profile from '../images/white-top-girl.png'
+  import profile from '../images/portrait.jpg'
 
   function About() {
     return (
@@ -7,7 +7,8 @@
         <main className="about">
           <section className="about-me">
             <div>
-              <h1>Where Creativity Meets Strategy</h1>
+             <div className='welcome'>Welcome!</div>
+              <h1>Hello I'm James Weah a Aspiring Software Developer</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -20,10 +21,9 @@
               </div>
             </div>
           </section>
-
           <section className="photo-sec">
             <div>
-             <img src={profile} />
+             <img className='portrait' alt='profile-photo' src={profile} />
             </div>
           </section>
         </main>
