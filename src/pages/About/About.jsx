@@ -26,7 +26,6 @@
               <img className="portrait" alt="profile-photo" src={profile} />
             </div>
           </section>
-         
         </main>
         
       </>
