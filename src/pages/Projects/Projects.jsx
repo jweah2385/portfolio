@@ -1,9 +1,14 @@
+import './Projects.css'
+
 function Projects() {
   return (
     <>
-      <div>
-        <h1>Projects</h1>
-      </div>
+      <main className='project-page' >
+        <h1 className='project-title'> Projects </h1>
+        <section className='all-projects'>
+        
+        </section>
+      </main>
     </>
   );
 }

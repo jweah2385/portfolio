@@ -1,0 +1,105 @@
+.skills-page {
+   
+}
+
+.my-skills-title {
+    color: white;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.skills-sec {
+    margin-left: .8rem;
+    margin-right: .8rem;
+    background-color: white;
+    border-radius: 2rem;
+    padding-top: .1rem;
+    padding-bottom: 2rem;
+    padding-top: .5rem;
+}
+
+
+.front-end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.front-end > h1, .back-end > h1 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.front-end-icons  {
+    display: flex;
+    gap: 2rem;
+}
+
+.front-end-icons div {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.front-end-icons img{
+    height: 5rem;
+}
+
+.front-end-icons span , .back-end-icons span {
+    font-weight: lighter;
+}
+
+.css {
+    position: relative;
+    left: 1.4rem;
+}
+
+.html {
+    position: relative;
+    left: 1.1rem;
+}
+
+.react {
+    position: relative;
+    left: 1.5rem;
+}
+
+.bootstrap {
+    position: relative;
+    left: .5rem;
+}
+
+.back-end-icons {
+    display: flex;
+    
+    gap: 2rem;
+}
+
+.mongo {
+    position: relative;
+    left: .3rem;
+}
+
+.jquery {
+    position: relative;
+    left: .7rem;
+}
+
+
+
+.back-end-icons div {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.back-end-icons img {
+    height: 5rem;
+}
+
+.back-end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
