@@ -24,16 +24,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
 
 .front-end > h1, .back-end > h1 {
     font-size: 1.5rem;
     font-weight: 300;
+    /* margin-bottom: 1.5rem; */
 }
 
 .front-end-icons  {
     display: flex;
     gap: 2rem;
+ 
 }
 
 .front-end-icons div {
@@ -43,7 +46,8 @@
 }
 
 .front-end-icons img{
-    height: 5rem;
+    height: 3rem;
+    width: 3rem;
 }
 
 .front-end-icons span , .back-end-icons span {
@@ -52,27 +56,26 @@
 
 .css {
     position: relative;
-    left: 1.4rem;
+    left: .5rem;
 }
 
 .html {
     position: relative;
-    left: 1.1rem;
+    left: .3rem;
 }
 
 .react {
     position: relative;
-    left: 1.5rem;
+    left: .3rem;
 }
 
 .bootstrap {
     position: relative;
-    left: .5rem;
+    right: .4rem;
 }
 
 .back-end-icons {
     display: flex;
-    
     gap: 2rem;
 }
 
@@ -83,10 +86,28 @@
 
 .jquery {
     position: relative;
-    left: .7rem;
+    right: 0rem;
 }
 
+.js {
+    position: relative;
+    right: .7rem;
+}
 
+.mongo {
+    position: relative;
+    left: -.5rem;
+}
+
+.nodejs {
+    position: relative;
+    right: .3rem;
+}
+
+.apollo {
+    position: relative;
+    right: .6rem;
+}
 
 .back-end-icons div {
     display: flex;
@@ -95,11 +116,107 @@
 }
 
 .back-end-icons img {
-    height: 5rem;
+    height: 3rem;
+    width: 3rem;
 }
 
 .back-end {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+
+@media ((max-width: 650px)) {
+    .front-end > h1, .back-end > h1 {
+    font-size: 1.3rem;
+    font-weight: 300;
+    
+}
+
+    
+
+    .front-end-icons span{
+        font-size: .9rem;
+    }
+
+    .html {
+        position: relative;
+        left: -.1rem;
+    }
+
+    .css {
+        position: relative;
+        left: .1rem;
+    }
+
+    .react {
+        position: relative;
+        left: -.1rem;
+    }
+    
+    .bootstrap {
+        position: relative;
+        left: -.7rem;
+    }
+
+
+    .front-end-icons img {
+        height: 2rem;
+        width: 2rem;
+    }
+    
+    .back-end-icons span {
+        font-size: .9rem;
+    }
+
+    .back-end-icons {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .back-end-icons div {
+
+    }
+
+    .js {
+        position: relative;
+        right: .9rem;
+    }
+
+    .mongo {
+        position: relative;
+        left: -.8rem;
+    }
+
+    .nodejs {
+        position: relative;
+        left: -.5rem;
+    }
+
+    .jquery {
+        position: relative;
+        right: .4rem;
+    }
+
+    .apollo {
+        position: relative;
+        left: -.9rem;
+    }
+
+    .back-end-icons img {
+        height: 2rem;
+        width: 2rem;
+    }
+}
+
+@media ((max-width: 400px)) {
+    .back-end-icons {
+        margin-left: 1rem;
+        
+    }
+
+    
+
 }

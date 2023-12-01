@@ -20,19 +20,19 @@ function Skills() {
             <div className="front-end-icons">
               <div>
                 <img src={html} />
-                <span className='html'>HTML</span>
+                <span className="html">HTML</span>
               </div>
               <div>
                 <img src={css} />
-                <span className='css' >CSS</span>
+                <span className="css">CSS</span>
               </div>
               <div>
                 <img src={react} />
-                <span className='react'>React</span>
+                <span className="react">React</span>
               </div>
               <div>
                 <img src={bootstrap} />
-                <span className='bootstrap'>Bootstrap</span>
+                <span className="bootstrap">Bootstrap</span>
               </div>
             </div>
           </div>
@@ -40,25 +40,25 @@ function Skills() {
             <h1>Back-end</h1>
 
             <div className="back-end-icons">
-              <div>
+              <div className="icons">
                 <img src={javaScript} />
-                <span>JavaScript</span>
+                <span className="js">JavaScript</span>
               </div>
-              <div>
+              <div className="icons">
                 <img src={mongoDB} />
-                <span className='mongo' >MongoDB</span>
+                <span className="mongo">MongoDB</span>
               </div>
-              <div>
+              <div className="icons">
                 <img src={jquery} />
-                <span className='jquery' >JQuery</span>
+                <span className="jquery">JQuery</span>
               </div>
-              <div>
+              <div className="icons">
                 <img src={nodeJs} />
-                <span>NodeJs</span>
+                <span className="nodejs">NodeJs</span>
               </div>
-              <div>
+              <div className="icons">
                 <img src={apollogql} />
-                <span>Apollo GQL</span>
+                <span className="apollo">Apollo GQL</span>
               </div>
             </div>
           </div>

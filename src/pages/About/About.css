@@ -4,17 +4,13 @@ main.about {
 
 .about {
     display: flex;
-   /* flex-wrap: wrap; */
-   /* margin-top: 5rem; */
    margin-top: 0rem;
    margin-left: auto;
    margin-right: auto;
-    /* height: 60vh; */
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
     background-color: color;
-    background-color: white;
-    /* width: 100vw; */  
+    background-color: white; 
     padding-top: 2rem;
     padding-bottom: 2.5rem;
 }
@@ -89,10 +85,6 @@ p {
     color: white;
 }
 
-.projectss {
-    background-color: #2B2A4C;
-    margin-top: -0rem;
-}
 
 @media ((max-width: 800px)) {
     .about {
@@ -112,3 +104,15 @@ p {
     }
 }
 
+@media ((max-width: 600px)) {
+     .photo-sec {
+        
+     }   
+     .photo-sec img {
+      height: 23rem;
+      border-radius: 6rem;
+}
+
+
+
+}
