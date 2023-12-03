@@ -1,5 +1,9 @@
 .project-page {
     background-color: white;   
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    margin-top: 4rem;
+    padding-bottom: 2rem;
 }
 
  .project-title {
