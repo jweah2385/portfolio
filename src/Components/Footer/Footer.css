@@ -1,2 +1,104 @@
+.footer {
+    background-color: white;
+    /* margin-bottom: 0rem; */
+       border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    
+}
+.footer-main {
+   background-color: white;
+   padding-top: .5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+}
 
+.footer-name > h1{
+    font-size: 1.8rem;
+    margin-top: 5rem;
+    font-weight: 300;
+}
 
+hr {
+    height: 9.5rem;
+    margin-top: 2rem;
+    width: 0rem;
+    margin-left: 5rem;
+    margin-right: 3rem;
+}
+
+.pages > ul {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    align-content: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.contact-footer > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2;
+}
+
+.linkedin-icon, .github-icon, .email-icon {
+   height: 1.7rem;
+}
+
+.cp-section {
+    background-color: white;
+}
+
+.sub-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.sub-footer > hr {
+    width: 90%;
+    height: 1px;
+    margin-bottom: 1.5rem;
+}
+
+.sub-footer > span {
+    margin-bottom: 1.5rem;
+}
+
+@media ((max-width: 750px)) {
+    .footer-main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     padding-top: 0rem;
+    }
+
+    .footer-name > h1{
+        margin-top: 2rem;
+    }
+
+    .pages > ul > li {
+     margin-right: 2rem;
+    }
+
+    hr {
+        width: 90%;
+        height: 1px;
+        color: grey;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+
+    .contact-footer > ul {
+        flex-direction: row;
+        gap: 1rem;
+        
+    }
+}   
