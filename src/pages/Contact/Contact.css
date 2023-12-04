@@ -1,0 +1,105 @@
+.contact-page {
+    background-color: #FFFBF5;
+    margin-left: 0 0.8rem;
+    border-radius: 2rem;
+    display: flex;
+    margin: 3rem 1rem 2rem 1rem;
+}
+
+.call-to-action > h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.call-to-action > p {
+    text-align: center;
+}
+
+.call-to-action {
+    text-align: center;
+    width: 100%;
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+}
+
+.user-input {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+    width: 100%;  
+}
+
+form {
+  display: flex;
+  flex-direction: column;  
+}
+
+.name , .email {
+    /* width: 15rem; */
+    border: 1px solid black;
+    height: 3rem;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    background-color: #FFFBF5;
+    
+}
+
+.name, .email, .message, .message-button {
+    width: 90%;
+    max-width: 20rem;
+}
+
+/* .name:placeholder, .email:placeholder {
+    color: #999;
+} */
+
+.name-and-email {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1.5rem
+}
+
+.message {
+    margin-bottom: 2rem;
+    height: 3rem;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 1px solid black;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    background-color: #FFFBF5;
+    width: 100%;
+}
+
+.message-button {
+    height: 3.5rem;
+    width: 50%;
+    /* width: 9rem; */
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: #161A30;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .name,
+    .email,
+    .message,
+    .message-button {
+        width: 100%; 
+        max-width: none; 
+    }
+    .contact-page {
+        flex-wrap: wrap;
+        
+    }
+    .user-input {
+        justify-content: center;
+    }
+}

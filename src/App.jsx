@@ -15,9 +15,8 @@ function App() {
       <About/>
       <Skills/>
       <Projects/> 
-      {/* <Skills/>
       <Contact />
-      <Footer />  */}
+      {/* <Footer />   */}
     </div>
   );
 }

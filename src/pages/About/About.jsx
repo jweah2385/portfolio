@@ -6,7 +6,7 @@
       <>
         <main className="about">
           <section className="about-me">
-            <div>
+            <div className='h'>
               <div className="welcome">Welcome!</div>
               <h1>Hello I'm James Weah | Software Developer</h1>
               <p>
