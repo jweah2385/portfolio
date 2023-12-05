@@ -29,6 +29,14 @@ hr {
     margin-right: 3rem;
 }
 
+/* .footer-main hr {
+    border-style: none none dotted ;
+    border-width: 1px 0 0;
+    height: 80px;
+    width: 0;
+    border-color:  black;
+} */
+
 .pages > ul {
     display: flex;
     flex-direction: column;
@@ -43,6 +51,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     line-height: 2;
+     list-style: none;
 }
 
 .linkedin-icon, .github-icon, .email-icon {
@@ -64,11 +73,19 @@ hr {
     width: 90%;
     height: 1px;
     margin-bottom: 1.5rem;
+    
 }
 
 .sub-footer > span {
     margin-bottom: 1.5rem;
 }
+
+/* hr {
+       width: 10%;
+    border-style: dotted none none;
+    border-width: 7px;
+    border-color: red;
+} */
 
 @media ((max-width: 750px)) {
     .footer-main {
@@ -83,7 +100,7 @@ hr {
     }
 
     .pages > ul > li {
-     margin-right: 2rem;
+   
     }
 
     hr {
@@ -94,7 +111,9 @@ hr {
         margin-right: 2rem;
         margin-top: 0rem;
         margin-bottom: 0rem;
+     
     }
+
 
     .contact-footer > ul {
         flex-direction: row;

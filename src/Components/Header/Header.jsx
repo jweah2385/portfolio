@@ -1,17 +1,38 @@
 import './Header.css'
+import { Link, NavLink } from 'react-router-dom'
+import { useState } from 'react';
 
 function Header() {
+  const [ menuOpen, setMenuOpen ] = useState(false)
+
   return (
-    <>
-      <nav  >
-        <ul  className="header-options">
-          <li>Home</li>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Skills</li>
-          <div className='contact-top' >Contact</div>
+   <>
+      <nav>
+        <Link to="/" className="title">
+          Home
+        </Link>
+        <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul className={menuOpen ? 'open' : ''}>
+          <li>
+            <NavLink to="/about">About</NavLink>
+          </li>
+          <li>
+            <NavLink to="/skills">Skills</NavLink>
+          </li>
+          <li>
+            <NavLink to="/projects">Projects</NavLink>
+          </li>
+          <li>
+            <NavLink to="/contacts">Contacts</NavLink>
+          </li>
+          
         </ul>
       </nav>
+     
     </>
   );
 }
