@@ -1,4 +1,6 @@
 import './Contact.css';
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
+
 
 function Contact() {
   return (

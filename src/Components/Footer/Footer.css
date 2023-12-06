@@ -29,6 +29,8 @@ hr {
     margin-right: 3rem;
 }
 
+
+
 /* .footer-main hr {
     border-style: none none dotted ;
     border-width: 1px 0 0;
@@ -37,6 +39,10 @@ hr {
     border-color:  black;
 } */
 
+.pages {
+    
+}
+
 .pages > ul {
     display: flex;
     flex-direction: column;
@@ -44,6 +50,13 @@ hr {
     align-content: center;
     justify-content: center;
     list-style: none;
+    margin-top: 2.8rem;
+    background-color: white;
+    margin-right: 1.7rem;
+}
+
+.keep-style {
+    background-color: white;
 }
 
 .contact-footer > ul {
@@ -52,6 +65,8 @@ hr {
     justify-content: center;
     line-height: 2;
      list-style: none;
+     margin-top: 2.8rem;
+    
 }
 
 .linkedin-icon, .github-icon, .email-icon {
@@ -114,10 +129,14 @@ hr {
      
     }
 
+    .pages > ul {
+        margin-top: 1rem;
+    }
 
     .contact-footer > ul {
         flex-direction: row;
         gap: 1rem;
-        
+
     }
 }   
+
