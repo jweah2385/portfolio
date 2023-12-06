@@ -12,7 +12,7 @@ import apollogql from '../images/skills/apollogql.jpg';
 function Skills() {
   return (
     <>
-      <main className="skills-page">
+      <main id="section02" className="skills-page">
         <h1 className="my-skills-title">My skills</h1>
         <section className="skills-sec">
           <div className="front-end">

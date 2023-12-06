@@ -1,16 +1,26 @@
 import './Header.css'
 import { Link, NavLink } from 'react-router-dom'
 import { useState } from 'react';
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
+
 
 function Header() {
   const [ menuOpen, setMenuOpen ] = useState(false)
-
   return (
-   <>
+    <>
       <nav>
-        <Link to="/" className="title">
-          Home
-        </Link>
+     
+        <ScrollLink
+        className='title'
+          to="section01"
+          smooth={true}
+          duration={500}
+          spy={true}
+          exact="true"
+          offset={-70} 
+        >
+         Home
+        </ScrollLink>
         <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
           <span></span>
           <span></span>
@@ -18,21 +28,56 @@ function Header() {
         </div>
         <ul className={menuOpen ? 'open' : ''}>
           <li>
-            <NavLink to="/about">About</NavLink>
+  
+            <ScrollLink
+              to="section01"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-70} 
+            >
+              About
+            </ScrollLink>
           </li>
           <li>
-            <NavLink to="/skills">Skills</NavLink>
+           <ScrollLink
+              to="section02"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-70} 
+            >
+              Skills
+            </ScrollLink>
           </li>
           <li>
-            <NavLink to="/projects">Projects</NavLink>
+           <ScrollLink
+              to="section03"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-70} 
+            >
+              Projects
+            </ScrollLink>
           </li>
           <li>
-            <NavLink to="/contacts">Contacts</NavLink>
+            <ScrollLink
+              to="section04"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-70}
+            >
+              Contact
+            </ScrollLink>
           </li>
-          
         </ul>
       </nav>
-     
     </>
   );
 }

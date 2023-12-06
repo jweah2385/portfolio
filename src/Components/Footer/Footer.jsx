@@ -1,10 +1,9 @@
 import './Footer.css';
 
-
 function Footer() {
   return (
     <>
-      <main className='footer'>
+      <main id="section05" className='footer'>
         <section className="footer-main">
           <section className="footer-name">
             <h1>James Weah</h1>

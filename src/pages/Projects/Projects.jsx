@@ -1,10 +1,12 @@
 import './Projects.css'
 import projectList from '../../util/ProjectList.jsx'
 
+
+
 function Projects() {
   return (
     <>
-      <main className="project-page">
+      <main id="section03"  className="project-page">
         <h1 className="project-title"> Projects </h1>
         <section className="all-projects">
           <div className="projects-container">

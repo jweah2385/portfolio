@@ -84,6 +84,12 @@ form {
     background-color: #161A30;
     color: white;
     margin-bottom: 2rem;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.message-button:hover {
+    transform: scale(0.95);
 }
 
 

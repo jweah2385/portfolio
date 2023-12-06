@@ -1,12 +1,15 @@
 
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router-dom';
+import ReactDOM from 'react-dom/client';
+import App from './App.jsx';
+import {
+  BrowserRouter,
+  createBrowserRouter,
+  RouterProvider,
+} from 'react-router-dom';
 import Error from './pages/Error/Error';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Projects from './pages/Projects/Projects';
-
 
 import './index.css';
 import Skills from './pages/Skills/Skills.jsx';
@@ -39,14 +42,9 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  // <RouterProvider router={router} />
   <React.StrictMode>
     <BrowserRouter>
       <App></App>
     </BrowserRouter>
   </React.StrictMode>
 );
-
-
-
-

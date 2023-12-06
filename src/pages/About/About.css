@@ -74,7 +74,7 @@ p {
 .both-buttons {
     display: flex;
     gap: 1rem;
-
+ 
 }
 
 .both-buttons > button {
@@ -82,12 +82,20 @@ p {
     height: 2.2rem;
     width: 6.5rem;
     border-width: .5px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
 }
+
+
 
 .both-buttons > button:hover {
     background-color: #6DB9EF;
     color: white;
+    transform: translateY(-2px);
+    border: none;
 }
+
+
 
 
 @media ((max-width: 800px)) {

@@ -1,7 +1,5 @@
 .project-page {
     background-color: white;   
-    /* border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem; */
     border-radius: 2rem;
     margin-top: 4rem;
     padding-bottom: 2rem;
@@ -68,7 +66,16 @@
     width: 80%;
     border-radius: 10px;
     border: .9px solid black;
-    
+}
+
+ .project-img{
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+
+}
+
+  .project-img:hover {
+    transform: scale(0.98);
 }
 
 .description {
@@ -81,10 +88,7 @@
     .projects-container {
     display: grid;
     grid-template-columns: 1fr 1fr  ;
-    grid-template-rows: 1fr 1fr 1fr;
-    /* row-gap: 3rem;
-    column-gap: 2rem; */
-    
+    grid-template-rows: 1fr 1fr 1fr;  
 }
 
 }
@@ -94,8 +98,6 @@
     display: grid;
     grid-template-columns: 1fr ;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    /* row-gap: 3rem;
-    column-gap: 2rem; */
 }
 
 }

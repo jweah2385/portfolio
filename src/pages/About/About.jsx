@@ -4,9 +4,9 @@
   function About() {
     return (
       <>
-        <main className="about">
+        <main id="section01"  className="about">
           <section className="about-me">
-            <div className='h'>
+            <div className="h">
               <div className="welcome">Welcome!</div>
               <h1>Hello I'm James Weah | Software Developer</h1>
               <p>
@@ -16,8 +16,8 @@
                 nisi ut aliquip ex ea commodo consequat.
               </p>
               <div className="both-buttons">
-                <button>GitHub</button>
-                <button>Resume</button>
+                <button className="github-btn">GitHub</button>
+                <button className="resume-btn">Resume</button>
               </div>
             </div>
           </section>
@@ -27,7 +27,6 @@
             </div>
           </section>
         </main>
-        
       </>
     );
   }
