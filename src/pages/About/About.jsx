@@ -4,7 +4,7 @@
   function About() {
     return (
       <>
-        <main id="section01"  className="about">
+        <main id="section01" className="about">
           <section className="about-me">
             <div className="h">
               <div className="welcome">Welcome!</div>
@@ -16,8 +16,24 @@
                 nisi ut aliquip ex ea commodo consequat.
               </p>
               <div className="both-buttons">
-                <button className="github-btn">GitHub</button>
-                <button className="resume-btn">Resume</button>
+                <button className="github-btn">
+                  <a
+                    className="anchor-button"
+                    href="https://github.com/jweah2385"
+                  >
+                    GitHub
+                  </a>
+                </button>
+
+                <button className="resume-btn">
+                  {' '}
+                  <a
+                    className="anchor-button"
+                    href=""
+                  >
+                   Resume
+                  </a>
+                </button>
               </div>
             </div>
           </section>

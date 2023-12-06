@@ -11,7 +11,7 @@ main.about {
     border-bottom-right-radius: 2rem;
     background-color: color;
     background-color: white; 
-    padding-top: .8rem;
+    padding-top: 1.3rem;
     padding-bottom: 2.5rem;
 }
 
@@ -79,8 +79,8 @@ p {
 
 .both-buttons > button {
     border-radius: 8px;
-    height: 2.2rem;
-    width: 6.5rem;
+    height: 2.4rem;
+    width: 6.6rem;
     border-width: .5px;
     cursor: pointer;
     transition: transform 0.2s ease-in-out;

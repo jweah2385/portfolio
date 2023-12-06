@@ -13,7 +13,8 @@ nav {
     position: sticky;
     top: 0;
     z-index: 999;
-    
+    margin-top: .2rem;
+    margin-bottom: .3rem;
 }
 
 nav .title {
@@ -78,7 +79,8 @@ nav .menu span {
     nav {
         flex-direction: column;
         align-items: flex-start;
-       
+        padding-top: .7rem;
+        padding-bottom: .5rem;
     }
 
     nav ul {
@@ -103,3 +105,10 @@ nav .menu span {
         margin: 0.2rem 0.5rem;
     }
 }
+
+/* @media ((max-width: 380px)) {
+     nav {
+        padding-top: 1rem;
+        padding-bottom: .5rem;
+    }
+} */

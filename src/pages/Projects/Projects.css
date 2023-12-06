@@ -55,8 +55,14 @@
     border: .4px solid black;
     height: 2rem;
     width: 4rem;
-    
+    cursor: pointer;
 }
+.img-buttons button:hover {
+    background-color: #AEE2FF;
+}
+
+
+
 
 .git-icon , .play-icon {
     padding-top: .2rem;

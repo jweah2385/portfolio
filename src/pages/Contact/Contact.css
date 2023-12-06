@@ -92,6 +92,10 @@ form {
     transform: scale(0.95);
 }
 
+.anchor-button {
+    text-decoration: none;
+    color: inherit;
+}
 
 @media screen and (max-width: 768px) {
     .name,
