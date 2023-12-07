@@ -27,7 +27,7 @@ function Header() {
           <span></span>
         </div>
         <ul className={menuOpen ? 'open' : ''}>
-          <li>
+          <li >
   
             <ScrollLink
               to="section01"

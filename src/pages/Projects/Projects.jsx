@@ -12,6 +12,7 @@ function Projects() {
           <div className="projects-container">
             {projectList.map((item) => (
               <div className="project-img" key={item.id}>
+                <span className='project-name' >{item.name}</span>
                 <img className="projects-imgs" src={item.ImageUrl} />
                 <div className="img-buttons">
                   <a href={item.gitHubUrl}>

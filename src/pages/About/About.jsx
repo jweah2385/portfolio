@@ -10,10 +10,13 @@
               <div className="welcome">Welcome!</div>
               <h1>Hello I'm James Weah | Software Developer</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                "Beginning with Java, my programming journey commenced, igniting
+                a fervor for coding. Web development, biology, and linguistics
+                fascinated me deeply. Web development offered a canvas for
+                intuitive interfaces, while biology and linguistics led me to
+                explore complex systems and language processing algorithms.
+                These diverse interests propel my exploration of their
+                intersection in technology."
               </p>
               <div className="both-buttons">
                 <button className="github-btn">
@@ -27,11 +30,8 @@
 
                 <button className="resume-btn">
                   {' '}
-                  <a
-                    className="anchor-button"
-                    href=""
-                  >
-                   Resume
+                  <a className="anchor-button" href="">
+                    Resume
                   </a>
                 </button>
               </div>
