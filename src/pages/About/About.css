@@ -67,7 +67,7 @@ p {
 }
 
 .portrait {
-    border-radius: 8.5rem;
+    border-radius: 4rem;
     
 }
 
@@ -122,7 +122,7 @@ p {
      }   
      .photo-sec img {
       height: 23rem;
-      border-radius: 6rem;
+      border-radius: 4.5rem;
 }
 
 

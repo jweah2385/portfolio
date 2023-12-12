@@ -74,6 +74,7 @@ nav .menu span {
 @media (max-width: 480px) {
     nav .menu {
         display: flex;
+        margin-right: .5rem;
     }
 
     nav {
