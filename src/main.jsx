@@ -1,19 +1,36 @@
 
-import ReactDOM from 'react-dom/client';
+// import ReactDOM from 'react-dom/client';
+// import App from './App.jsx';
+// import {
+//   BrowserRouter,
+//   createBrowserRouter,
+//   RouterProvider,
+// } from 'react-router-dom';
+// import Error from './pages/Error/Error';
+// import About from './pages/About/About';
+// import Contact from './pages/Contact/Contact';
+// import Projects from './pages/Projects/Projects';
+
+// import './index.css';
+// import Skills from './pages/Skills/Skills.jsx';
+// import React from 'react';
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { createBrowserRouter, BrowserRouter } from 'react-router-dom';
+import dotenv from 'dotenv'; // Import dotenv at the beginning
+
 import App from './App.jsx';
-import {
-  BrowserRouter,
-  createBrowserRouter,
-  RouterProvider,
-} from 'react-router-dom';
 import Error from './pages/Error/Error';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Projects from './pages/Projects/Projects';
+import Skills from './pages/Skills/Skills.jsx';
 
 import './index.css';
-import Skills from './pages/Skills/Skills.jsx';
-import React from 'react';
+
+// dotenv.config();
+
 
 const router = createBrowserRouter([
   {

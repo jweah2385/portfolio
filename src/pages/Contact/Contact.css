@@ -86,7 +86,7 @@ form {
 
 .message-button {
     height: 3.5rem;
-    width: 50%;
+    width: 100%;
     /* width: 9rem; */
     border-radius: 25px;
     border: 1px solid black;

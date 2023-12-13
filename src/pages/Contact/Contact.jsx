@@ -1,32 +1,43 @@
 import './Contact.css';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 import React, { useRef } from 'react';
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 
 
 function Contact() {
-    // const form = useRef();
-    // console.log(process.env)
-    // const sendEmail = (e) => {
-    //   e.preventDefault();
+
+  const serviceId = import.meta.env.VITE_SERVICE_ID;
+  const templateId = import.meta.env.VITE_TEMPLATE_ID;
+  const publicKey = import.meta.env.VITE_PUBLIC_KEY;
+
+  console.log(serviceId, templateId, publicKey);
+
+
+  const form = useRef();
+ 
+  const sendEmail = (e) => {
+    
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        serviceId,
+        templateId,
+        form.current,
+        publicKey
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log(serviceId, templateId, publicKey);
+          alert(`Thank you for your message.`);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   
-    //   emailjs
-    //     .sendForm(
-    //       process.env.REACT_APP_Service_ID,
-    //       process.env.REACT_APP_Template_ID,
-    //       form.current,
-    //       process.env.REACT_APP_Public_Key
-    //     )
-    //     .then(
-    //       (result) => {
-    //         console.log(result.text);
-    //         console.log('message sent');
-    //       },
-    //       (error) => {
-    //         console.log(error.text);
-    //       }
-    //     );
-    // };
   return (
     <>
       <main id="section04" className="contact-page">
@@ -38,25 +49,45 @@ function Contact() {
           </p>
         </section>
         <section className="user-input">
-          {/* <form ref={form} onSubmit={sendEmail}>
-            <label>Name</label>
-            <input type="text" name="user_name" />
-            <label>Email</label>
-            <input type="email" name="user_email" />
-            <label>Message</label>
-            <textarea name="message" />
-            <input type="submit" value="Send" />
-          </form> */}
-          <form method="post">
+          {/* <form method="post" ref={form} onSubmit={sendEmail}> */}
+          <form ref={form} onSubmit={sendEmail}>
             <div className="name-and-email">
               <input
                 className="name"
-                name="name"
+                type="text"
+                name="user_name"
+                placeholder="Name"
+              />
+
+              <input
+                className="email"
+                type="email"
+                name="user_email"
+                placeholder="Email"
+              />
+            </div>
+
+            <textarea
+              className="message"
+              name="message"
+              placeholder="Message"
+            />
+            <input
+              className="message-button"
+              type="submit"
+              value="Submit Value"
+            />
+          </form>
+          {/* <div className="name-and-email">
+              <input
+                type="text"
+                className="name"
+                name="user_name"
                 placeholder=" Full Name"
               ></input>
               <input
                 className="email"
-                name="email"
+                name="user_email"
                 placeholder=" Email"
               ></input>
             </div>
@@ -65,8 +96,10 @@ function Contact() {
               name="message"
               placeholder=" Message"
             ></textarea>
-            <button className="message-button">Send Message</button>
-          </form>
+            <button type="submit" value="Send" className="message-button">
+              Send Message
+            </button> */}
+          {/* </form> */}
         </section>
       </main>
     </>
