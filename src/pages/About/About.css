@@ -1,26 +1,27 @@
 main.about {
     background-color: white;
+    display: flex;
+    
 }
 
 .about {
     display: flex;
-   margin-top: 0rem;
-   margin-left: auto;
-   margin-right: auto;
+    margin-top: 0rem;
+    margin-left: auto;
+    margin-right: auto;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
     background-color: color;
     background-color: white; 
-    padding-top: 1.3rem;
+    padding-top: 2.5rem;
     padding-bottom: 2.5rem;
 }
 
 .about-me {
     flex-grow: 4;
-    flex-basis: 55%;
+    flex-basis: 60%;
     margin-left: 2rem;
     margin-right: 2rem;
-
 }
 
 .welcome {
@@ -33,7 +34,12 @@ main.about {
     font-weight: 300;
     border-radius: 15px;
     padding-top: .8rem;
-    
+}
+
+.h {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 .h > h1 {
@@ -57,18 +63,19 @@ p {
     flex-basis: 45%;
     padding: 0 20px;
     position: relative;
-    /* left: 2.5rem; */
+
+    /* left: 2rem; */
 }  
 
 .photo-sec img {
     /* max-width: 100%; */
     height: 28rem;
-
+    /* margin-right: 2rem; */
+    margin: 0 auto;
 }
 
 .portrait {
-    border-radius: 4rem;
-    
+    border-radius: 4.5rem; 
 }
 
 .both-buttons {
@@ -97,6 +104,12 @@ p {
 
 
 
+@media ((min-width: 1300px)) {
+    .photo-sec img {
+        height: 34rem;
+    }
+}
+
 
 @media ((max-width: 800px)) {
     .about {
@@ -124,7 +137,5 @@ p {
       height: 23rem;
       border-radius: 4.5rem;
 }
-
-
 
 }

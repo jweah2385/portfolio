@@ -30,6 +30,7 @@ function Contact() {
           console.log(result.text);
           console.log(serviceId, templateId, publicKey);
           alert(`Thank you for your message.`);
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
@@ -45,7 +46,7 @@ function Contact() {
           <h1>Nice to Meet You!</h1>
           <p>
             Feel free to reach out and send me a message, I'm here and eager to
-            connect!.{' '}
+            connect!.
           </p>
         </section>
         <section className="user-input">
@@ -56,26 +57,26 @@ function Contact() {
                 className="name"
                 type="text"
                 name="user_name"
-                placeholder="Name"
+                placeholder=" Name"
               />
 
               <input
                 className="email"
                 type="email"
                 name="user_email"
-                placeholder="Email"
+                placeholder=" Email"
               />
             </div>
 
             <textarea
               className="message"
               name="message"
-              placeholder="Message"
+              placeholder=" Message"
             />
             <input
               className="message-button"
               type="submit"
-              value="Submit Value"
+              value="Submit "
             />
           </form>
           {/* <div className="name-and-email">
