@@ -1,5 +1,5 @@
   import './About.css';
-  import profile from '../images/portraits.jpg'
+  import profile from '../images/portrait 2.jpg'
   import resume from '../../util/James Weah Resume.docx (1).pdf'
   function About() {
     return (
