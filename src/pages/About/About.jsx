@@ -1,6 +1,6 @@
   import './About.css';
-  import profile from '../images/portrait.jpg'
-  
+  import profile from '../images/portraits.jpg'
+  import resume from '../../util/James Weah Resume.docx (1).pdf'
   function About() {
     return (
       <>
@@ -30,7 +30,7 @@
 
                 <button className="resume-btn">
                   {' '}
-                  <a className="anchor-button" href="">
+                  <a className="anchor-button" href={resume}>
                     Resume
                   </a>
                 </button>
