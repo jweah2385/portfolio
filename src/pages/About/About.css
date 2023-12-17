@@ -102,7 +102,9 @@ p {
     border: none;
 }
 
-
+.anchor-button {
+    
+}
 
 @media ((min-width: 1300px)) {
     .photo-sec img {

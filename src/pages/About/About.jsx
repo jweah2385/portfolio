@@ -1,6 +1,6 @@
   import './About.css';
-  import profile from '../images/portrait 2.jpg'
-  import resume from '../../util/James Weah Resume.docx (1).pdf'
+  import profile from '../images/portrait.jpg'
+  import resume from '../../util/James Weah Resume.pdf'
   function About() {
     return (
       <>
