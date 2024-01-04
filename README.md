@@ -21,7 +21,8 @@ This project is licensed under the MIT License.
 
 This is a preview of the application
 
-![ecommerce-front-end](https://github.com/jweah2385/React-ecommerce/assets/134350647/2bd9e8bd-1edf-43e7-857c-a8623a80c01a)
+<img width="1208" alt="Screenshot 2023-12-25 at 9 15 05 PM" src="https://github.com/jweah2385/portfolio/assets/134350647/c04f41dc-ad50-4434-a350-559e6e4bd072">
+
 
 ## Deployment
 https://portfolio-dun-one-25.vercel.app/
