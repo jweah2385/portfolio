@@ -1,8 +1,37 @@
-# React + Vite
+# Portfolio Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
 
-Currently, two official plugins are available:
+- [Project Title](#project-title)
+- [Description](#description)
+- [License](#license)
+- [Preview](#preview)
+- [Deployement](#deployment)
+- [Technologies Used](#technologies-used)
+- [Contact](#contact)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
+This is a portfolio page that showcases a little about me, my resume, projects and an contact section. 
+
+## License
+
+This project is licensed under the MIT License.
+
+## Preview
+
+This is a preview of the application
+
+![ecommerce-front-end](https://github.com/jweah2385/React-ecommerce/assets/134350647/2bd9e8bd-1edf-43e7-857c-a8623a80c01a)
+
+## Deployment
+https://portfolio-dun-one-25.vercel.app/
+
+## Technologies Used
+
+1. Javascript
+2. React
+2. HTML, CSS
+
+## Contact
+
+j_weah@uncg.edu
