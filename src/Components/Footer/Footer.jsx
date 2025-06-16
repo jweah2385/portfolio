@@ -115,7 +115,7 @@ function Footer() {
 
         <section className="sub-footer">
           <hr></hr>
-          <span>Copyright @ 2024</span>
+          <span>Copyright @ 2025</span>
         </section>
       </main>
     </>

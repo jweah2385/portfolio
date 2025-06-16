@@ -16,15 +16,7 @@ const AllProjects = [
     gitHubUrl: 'https://github.com/jweah2385/React-ecommerce',
     deploymentUrl: 'https://react-ecommerce-sigma-rosy.vercel.app/',
   },
-  {
-    id: '2',
-    name: 'Book Search',
-    ImageUrl: bookSearch,
-    description:
-      'This is a book search application that allows the user to sign in, search for their book of choice and add it to their saved collection.',
-    gitHubUrl: 'https://github.com/jweah2385/book-search-api1',
-    deploymentUrl: 'https://book-search-api2-f92e504c17b9.herokuapp.com/',
-  },
+  
 
   {
     id: '3',
@@ -35,24 +27,7 @@ const AllProjects = [
     gitHubUrl: 'https://github.com/jweah2385/code-Quiz',
     deploymentUrl: 'https://jweah2385.github.io/code-Quiz/',
   },
-  {
-    id: '4',
-    name: 'Weather App',
-    ImageUrl: weatherApp,
-    description:
-      'This weather app searches for the inserted destination and provides the current weather along with the forcast in the next five days.',
-    gitHubUrl: 'https://github.com/jweah2385/weather-app',
-    deploymentUrl: 'https://jweah2385.github.io/weather-app/',
-  },
-  {
-    id: '5',
-    name: 'Hello Software',
-    ImageUrl: helloSowftware,
-    description:
-      'This group application sells tutoring services to the user which can then be checked out by stripe.',
-    gitHubUrl: 'https://github.com/Hans-Doderlein/Hello-Software',
-    deploymentUrl: 'https://hello-software-37812ef8ef64.herokuapp.com/',
-  },
+
   {
     id: '6',
     name: 'Backend Api',

@@ -22,7 +22,7 @@
 .projects-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 1fr 1fr ;
+    grid-template-rows: 1fr;
     justify-content: center;
     row-gap: 3rem;
     column-gap: 2rem;
@@ -101,7 +101,7 @@
     .projects-container {
     display: grid;
     grid-template-columns: 1fr 1fr  ;
-    grid-template-rows: 1fr 1fr 1fr;  
+    grid-template-rows: 1fr;  
 }
 
 }
@@ -110,7 +110,8 @@
     .projects-container {
     display: grid;
     grid-template-columns: 1fr ;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 }
+
