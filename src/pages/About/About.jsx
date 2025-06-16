@@ -10,13 +10,7 @@
               <div className="welcome">Welcome!</div>
               <h1>Hello I'm James Weah | Software Developer</h1>
               <p>
-                "Beginning with Java, my programming journey commenced, igniting
-                a fervor for coding. Web development, biology, and linguistics
-                fascinated me deeply. Web development offered a canvas for
-                intuitive interfaces, while biology and linguistics led me to
-                explore complex systems and language processing algorithms.
-                These diverse interests propel my exploration of their
-                intersection in technology."
+                "I started programming with Java, which sparked my passion for coding. Over time, I became fascinated by languages and linguistics and how they shape the way we communicate and understand the world. I'm especially interested in the intersection of technology and language, and I want to use my web development skills to build applications that support learning, translation, or linguistic analysis"
               </p>
               <div className="both-buttons">
                 <button className="github-btn">
